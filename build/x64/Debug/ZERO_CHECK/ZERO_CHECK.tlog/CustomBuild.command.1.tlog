@@ -1,0 +1,10 @@
+^C:\USERS\YKOYABU\MY-PROJECT2\SAMPLEAPP\BUILD\CMAKEFILES\BFFF15607EAFF83A84A33FEC732AB747\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ykoyabu/my-project2/SampleApp -BC:/Users/ykoyabu/my-project2/SampleApp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ykoyabu/my-project2/SampleApp/build/MyTestProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

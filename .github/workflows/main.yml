@@ -20,7 +20,9 @@ jobs:
 
     # CMakeのセットアップ
     - name: Set up CMake
-      uses: cmake/setup-cmake@latest
+      uses: cmake/setup-cmake@v1  # 正しいバージョンv1を使用
+      with:
+        cmake-version: '3.29.0-rc4'  # 使用するCMakeのRC版バージョンを指定
       
     # VisualStudio2022を使用してビルド構成を作成
     - name: Configure CMake

@@ -20,7 +20,7 @@ jobs:
 
     # CMakeのセットアップ
     - name: Set up CMake
-      uses: cmake/setup-cmake@v3
+      uses: cmake/setup-cmake
       with:
         cmake-version: '3.21.2'  # 使用するCMakeのバージョン
       

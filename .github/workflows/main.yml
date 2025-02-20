@@ -20,7 +20,7 @@ jobs:
 
     # CMakeのセットアップ
     - name: Set up CMake
-      uses: cmake/setup-cmake@v1  # 正しいバージョンv1を使用
+      uses: threeal/cmake-action@v1  # threeal/cmake-actionの使用
       with:
         cmake-version: '3.29.0-rc4'  # 使用するCMakeのRC版バージョンを指定
       

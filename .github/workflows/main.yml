@@ -20,9 +20,9 @@ jobs:
 
     # CMakeのセットアップ
     - name: Set up CMake
-      uses: cmake/setup-cmake@v3
+      uses: cmake/setup-cmake@v2
       with:
-        cmake-version: '3.21.2'  # 使用するCMakeのバージョン
+        cmake-version: '3.29.0-rc4'  # 使用するCMakeのバージョン
       
     # VisualStudio2022を使用してビルド構成を作成
     - name: Configure CMake

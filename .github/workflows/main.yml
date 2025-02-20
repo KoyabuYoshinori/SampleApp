@@ -17,6 +17,10 @@ jobs:
     # リポジトリのコードをGitHub Actionsにチェックアウト
     - name: Checkout code
       uses: actions/checkout@v2
+
+    # CMakeのセットアップ
+    - name: Set up CMake
+      uses: actions/setup-cmake@v1
       
     # VisualStudio2022を使用してビルド構成を作成
     - name: Configure CMake

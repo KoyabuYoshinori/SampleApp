@@ -20,7 +20,7 @@ jobs:
 
     # CMakeのセットアップ
     - name: Set up CMake
-      uses: threeal/cmake-action@v3.29.0  # threeal/cmake-actionの使用
+      uses: threeal/cmake-action@v2.1.0  # threeal/cmake-actionの使用
       
     # VisualStudio2022を使用してビルド構成を作成
     - name: Configure CMake

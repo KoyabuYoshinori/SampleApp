@@ -44,4 +44,4 @@ jobs:
     - name: Run testscd
       run: |
         cd build
-        ctest
+        ctest -C Debug

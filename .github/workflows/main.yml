@@ -27,8 +27,8 @@ jobs:
     # VisualStudio2022を使用してビルド構成を作成
     - name: Configure CMake
       run: |
-        # buildディレクトリへ生成
-        rm -rf build
+        # buildディレクトリの削除／生成
+        Remove-Item -Recurse -Force build
         mkdir build
         cd build
         # ビルド構成を作成

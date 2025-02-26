@@ -28,6 +28,7 @@ jobs:
     - name: Configure CMake
       run: |
         # buildディレクトリへ生成
+        rm -rf build
         mkdir build
         cd build
         # ビルド構成を作成

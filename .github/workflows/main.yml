@@ -17,6 +17,8 @@ jobs:
     # リポジトリのコードをGitHub Actionsにチェックアウト
     - name: Checkout code
       uses: actions/checkout@v2
+      with:
+        submodules: true #サブモジュールを含めてリポジトリをチェックアウト
 
     # CMakeのセットアップ
     - name: Set up CMake

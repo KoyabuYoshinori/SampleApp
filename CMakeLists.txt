@@ -8,7 +8,7 @@ project(MyTestProject)
 set(CMAKE_CXX_STANDARD 23)
 
 # GoogleTest をサブモジュールとして追加
-add_subdirectory(extern/googletest)
+add_subdirectory(extern/googletest@ 5450174)
 
 # ビルドタイプの設定
 set(CMAKE_BUILD_TYPE Debug)

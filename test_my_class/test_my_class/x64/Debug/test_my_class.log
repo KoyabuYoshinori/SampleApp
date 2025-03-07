@@ -1,2 +1,190 @@
-﻿  test.cpp
-  test_my_class.vcxproj -> C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\test_my_class\x64\Debug\test_my_class.exe
+﻿  test_fixture.cpp
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(14,12): error C2143: 構文エラー: ';' が '*' の前にありません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(14,2): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(14,23): error C2238: ';' の前に無効なトークンがあります。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(21,7): error C2236: 予期しないトークン 'class' です。';' が入力されていることを確認してください。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(21,7): error C2504: 'SampleTest': 定義されていない基底クラスが宣言されています。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(21,7): error C2838: 'test_info_': メンバー宣言内の限定名が間違っています
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(21,7): error C3254: 'TestFixture': クラスは明示的オーバーライド 'TestBody' を含みますが、関数宣言を含むインターフェースから派生していません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(21,7): error C2838: 'TestBody': メンバー宣言内の限定名が間違っています
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(22,7): error C2236: 予期しないトークン 'class' です。';' が入力されていることを確認してください。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(22,7): error C2504: 'SampleTest': 定義されていない基底クラスが宣言されています。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(22,7): error C2838: 'test_info_': メンバー宣言内の限定名が間違っています
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(22,7): error C3254: 'TestFixture': クラスは明示的オーバーライド 'TestBody' を含みますが、関数宣言を含むインターフェースから派生していません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(22,7): error C2838: 'TestBody': メンバー宣言内の限定名が間違っています
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(22,7): error C2535: 'void TestFixture::TestBody(void)': メンバー関数は、既に定義または宣言されています。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+      C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(21,7):
+      'TestFixture::TestBody' の宣言を確認してください
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(6,1): error C2628: 'TestFixture' の後に 'void' を続けて記述できません(セミコロン ';' で区切ってあるか確認してください)。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(6,19): error C2556: 'TestFixture TestFixture::SetUp(void)': オーバーロード関数は、'void TestFixture::SetUp(void)' と戻り値の型のみが異なります。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+      C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(18,7):
+      'TestFixture::SetUp' の宣言を確認してください
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(6,19): error C2371: 'TestFixture::SetUp': 再定義されています。異なる基本型です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+      C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.h(18,7):
+      'TestFixture::SetUp' の宣言を確認してください
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(10,16): error C2440: '=': 'const char [1]' から 'char' に変換できません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+      C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(10,16):
+      この変換が可能なコンテキストはありません。
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(13,2): error C2065: 'sample_app': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(13,19): error C2061: 構文エラー: 識別子 'SampleApp'
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(20,9): error C2065: 'sample_app': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(20,2): error C2541: 'delete': ポインターではないオブジェクトを削除することはできません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(21,2): error C2065: 'sample_app': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2589: 'typeid': スコープ解決演算子 (::) の右側にあるトークンは使えません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,6): error C2062: 型 'unknown-type' は不要です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2059: 構文エラー: 'public'
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2143: 構文エラー: ';' が '{' の前にありません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2447: '{': 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2653: 'SampleTest_GetXXXXX_Test': 識別子がクラス名でも名前空間名でもありません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2065: 'SampleTest': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2672: 'testing::internal::GetTypeId': 一致するオーバーロードされた関数が見つかりませんでした。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+      C:\Users\ykoyabu\my-project\SampleApp\test_my_class\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7\build\native\include\gtest\internal\gtest-internal.h(435,8):
+      'testing::internal::TypeId testing::internal::GetTypeId(void)' の可能性があります
+          C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19):
+          'testing::internal::GetTypeId': テンプレート 引数が 'T' に対して無効です。型が必要です
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2653: 'SampleTest': 識別子がクラス名でも名前空間名でもありません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2065: 'SetUpTestCase': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2065: 'TearDownTestCase': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2065: 'SampleTest_GetXXXXX_Test': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2923: 'testing::internal::TestFactoryImpl': 'SampleTest_GetXXXXX_Test' は、パラメーター 'TestClass' の有効な テンプレート 型引数ではありません
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+      C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19):
+      'SampleTest_GetXXXXX_Test' の宣言を確認してください
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2512: 'testing::internal::TestFactoryImpl': クラス、構造体、共用体に既定のコンストラクターがありません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19): error C2737: 'test_info_': const オブジェクトを初期化する必要があります
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2589: 'typeid': スコープ解決演算子 (::) の右側にあるトークンは使えません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,6): error C2062: 型 'unknown-type' は不要です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2059: 構文エラー: 'public'
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2143: 構文エラー: ';' が '{' の前にありません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2447: '{': 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2653: 'SampleTest_SetXXXXX_Test': 識別子がクラス名でも名前空間名でもありません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2374: 'test_info_': 再定義されています。2 回以上初期化されています。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+      C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19):
+      'test_info_' の宣言を確認してください
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2065: 'SampleTest': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2672: 'testing::internal::GetTypeId': 一致するオーバーロードされた関数が見つかりませんでした。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+      C:\Users\ykoyabu\my-project\SampleApp\test_my_class\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7\build\native\include\gtest\internal\gtest-internal.h(435,8):
+      'testing::internal::TypeId testing::internal::GetTypeId(void)' の可能性があります
+          C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19):
+          'testing::internal::GetTypeId': テンプレート 引数が 'T' に対して無効です。型が必要です
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2653: 'SampleTest': 識別子がクラス名でも名前空間名でもありません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2065: 'SetUpTestCase': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2065: 'TearDownTestCase': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2065: 'SampleTest_SetXXXXX_Test': 定義されていない識別子です。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2923: 'testing::internal::TestFactoryImpl': 'SampleTest_SetXXXXX_Test' は、パラメーター 'TestClass' の有効な テンプレート 型引数ではありません
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+      C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19):
+      'SampleTest_SetXXXXX_Test' の宣言を確認してください
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2512: 'testing::internal::TestFactoryImpl': クラス、構造体、共用体に既定のコンストラクターがありません。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2737: 'test_info_': const オブジェクトを初期化する必要があります
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+  
+C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(32,19): error C2084: 関数 'void TestBody(void)' は既に本体を持っています。
+  (ソース ファイル '/test_fixture.cpp' をコンパイルしています)
+      C:\Users\ykoyabu\my-project\SampleApp\test_my_class\test_fixture.cpp(25,19):
+      'TestBody' の以前の定義を確認してください
+  

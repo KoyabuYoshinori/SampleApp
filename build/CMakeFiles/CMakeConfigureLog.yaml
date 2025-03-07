@@ -1,0 +1,463 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild 縺ｮ繝舌・繧ｸ繝ｧ繝ｳ 17.12.12+1cce77968 (.NET Framework)
+      2025/02/26 14:04:16 縺ｫ繝薙Ν繝峨ｒ髢句ｧ九＠縺ｾ縺励◆縲・
+      
+      繝弱・繝・1 荳翫・繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\3.29.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ)縲・
+      PrepareForBuild:
+        繝・ぅ繝ｬ繧ｯ繝医Μ "Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+        讒矩\xc2\x80蛹門・蜉帙′譛牙柑縺ｫ縺ｪ縺｣縺ｦ縺・∪縺吶\xc2\x80ゅさ繝ｳ繝代う繝ｩ險ｺ譁ｭ縺ｮ譖ｸ蠑剰ｨｭ螳壹↓縺ｯ繧ｨ繝ｩ繝ｼ髫主ｱ､縺悟渚譏縺輔ｌ縺ｾ縺吶\xc2\x80りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/cpp/structured-output 繧貞盾辣ｧ縺励※縺上□縺輔＞縲・
+        繝・ぅ繝ｬ繧ｯ繝医Μ "Debug\\CompilerIdC.tlog\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+      InitializeBuildStatus:
+        "AlwaysCreate" 縺梧欠螳壹＆繧後◆縺溘ａ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\3.29.0-rc4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        繝輔ぃ繧､繝ｫ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 繧貞炎髯､縺励※縺・∪縺吶\xc2\x80・
+        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+      繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\3.29.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ) 縺ｮ繝薙Ν繝峨′螳御ｺ・＠縺ｾ縺励◆縲・
+      
+      繝薙Ν繝峨↓謌仙粥縺励∪縺励◆縲・
+          0 蛟九・隴ｦ蜻・
+          0 繧ｨ繝ｩ繝ｼ
+      
+      邨碁℃譎る俣 00:00:01.18
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/3.29.0-rc4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild 縺ｮ繝舌・繧ｸ繝ｧ繝ｳ 17.12.12+1cce77968 (.NET Framework)
+      2025/02/26 14:04:18 縺ｫ繝薙Ν繝峨ｒ髢句ｧ九＠縺ｾ縺励◆縲・
+      
+      繝弱・繝・1 荳翫・繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\3.29.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ)縲・
+      PrepareForBuild:
+        繝・ぅ繝ｬ繧ｯ繝医Μ "Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+        讒矩\xc2\x80蛹門・蜉帙′譛牙柑縺ｫ縺ｪ縺｣縺ｦ縺・∪縺吶\xc2\x80ゅさ繝ｳ繝代う繝ｩ險ｺ譁ｭ縺ｮ譖ｸ蠑剰ｨｭ螳壹↓縺ｯ繧ｨ繝ｩ繝ｼ髫主ｱ､縺悟渚譏縺輔ｌ縺ｾ縺吶\xc2\x80りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/cpp/structured-output 繧貞盾辣ｧ縺励※縺上□縺輔＞縲・
+        繝・ぅ繝ｬ繧ｯ繝医Μ "Debug\\CompilerIdCXX.tlog\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+      InitializeBuildStatus:
+        "AlwaysCreate" 縺梧欠螳壹＆繧後◆縺溘ａ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\3.29.0-rc4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        繝輔ぃ繧､繝ｫ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 繧貞炎髯､縺励※縺・∪縺吶\xc2\x80・
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+      繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\3.29.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ) 縺ｮ繝薙Ν繝峨′螳御ｺ・＠縺ｾ縺励◆縲・
+      
+      繝薙Ν繝峨↓謌仙粥縺励∪縺励◆縲・
+          0 蛟九・隴ｦ蜻・
+          0 繧ｨ繝ｩ繝ｼ
+      
+      邨碁℃譎る俣 00:00:01.14
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/3.29.0-rc4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-6br311"
+      binary: "C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-6br311"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-6br311'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8603f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild 縺ｮ繝舌・繧ｸ繝ｧ繝ｳ 17.12.12+1cce77968 (.NET Framework)
+        2025/02/26 14:04:19 縺ｫ繝薙Ν繝峨ｒ髢句ｧ九＠縺ｾ縺励◆縲・
+        
+        繝弱・繝・1 荳翫・繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6br311\\cmTC_8603f.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ)縲・
+        PrepareForBuild:
+          繝・ぅ繝ｬ繧ｯ繝医Μ "cmTC_8603f.dir\\Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          讒矩\xc2\x80蛹門・蜉帙′譛牙柑縺ｫ縺ｪ縺｣縺ｦ縺・∪縺吶\xc2\x80ゅさ繝ｳ繝代う繝ｩ險ｺ譁ｭ縺ｮ譖ｸ蠑剰ｨｭ螳壹↓縺ｯ繧ｨ繝ｩ繝ｼ髫主ｱ､縺悟渚譏縺輔ｌ縺ｾ縺吶\xc2\x80りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/cpp/structured-output 繧貞盾辣ｧ縺励※縺上□縺輔＞縲・
+          繝・ぅ繝ｬ繧ｯ繝医Μ "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6br311\\Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          繝・ぅ繝ｬ繧ｯ繝医Μ "cmTC_8603f.dir\\Debug\\cmTC_8603f.tlog\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+        InitializeBuildStatus:
+          "AlwaysCreate" 縺梧欠螳壹＆繧後◆縺溘ａ "cmTC_8603f.dir\\Debug\\cmTC_8603f.tlog\\unsuccessfulbuild" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          "cmTC_8603f.dir\\Debug\\cmTC_8603f.tlog\\unsuccessfulbuild" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8603f.dir\\Debug\\\\" /Fd"cmTC_8603f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Microsoft(R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8603f.dir\\Debug\\\\" /Fd"cmTC_8603f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6br311\\Debug\\cmTC_8603f.exe" /INCREMENTAL /ILK:"cmTC_8603f.dir\\Debug\\cmTC_8603f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-6br311/Debug/cmTC_8603f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-6br311/Debug/cmTC_8603f.lib" /MACHINE:X64  /machine:x64 cmTC_8603f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8603f.vcxproj -> C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6br311\\Debug\\cmTC_8603f.exe
+        FinalizeBuildStatus:
+          繝輔ぃ繧､繝ｫ "cmTC_8603f.dir\\Debug\\cmTC_8603f.tlog\\unsuccessfulbuild" 繧貞炎髯､縺励※縺・∪縺吶\xc2\x80・
+          "cmTC_8603f.dir\\Debug\\cmTC_8603f.tlog\\cmTC_8603f.lastbuildstate" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+        繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6br311\\cmTC_8603f.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ) 縺ｮ繝薙Ν繝峨′螳御ｺ・＠縺ｾ縺励◆縲・
+        
+        繝薙Ν繝峨↓謌仙粥縺励∪縺励◆縲・
+            0 蛟九・隴ｦ蜻・
+            0 繧ｨ繝ｩ繝ｼ
+        
+        邨碁℃譎る俣 00:00:01.13
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34436.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-i5zshb"
+      binary: "C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-i5zshb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-i5zshb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_adea5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild 縺ｮ繝舌・繧ｸ繝ｧ繝ｳ 17.12.12+1cce77968 (.NET Framework)
+        2025/02/26 14:04:21 縺ｫ繝薙Ν繝峨ｒ髢句ｧ九＠縺ｾ縺励◆縲・
+        
+        繝弱・繝・1 荳翫・繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5zshb\\cmTC_adea5.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ)縲・
+        PrepareForBuild:
+          繝・ぅ繝ｬ繧ｯ繝医Μ "cmTC_adea5.dir\\Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          讒矩\xc2\x80蛹門・蜉帙′譛牙柑縺ｫ縺ｪ縺｣縺ｦ縺・∪縺吶\xc2\x80ゅさ繝ｳ繝代う繝ｩ險ｺ譁ｭ縺ｮ譖ｸ蠑剰ｨｭ螳壹↓縺ｯ繧ｨ繝ｩ繝ｼ髫主ｱ､縺悟渚譏縺輔ｌ縺ｾ縺吶\xc2\x80りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/cpp/structured-output 繧貞盾辣ｧ縺励※縺上□縺輔＞縲・
+          繝・ぅ繝ｬ繧ｯ繝医Μ "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5zshb\\Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          繝・ぅ繝ｬ繧ｯ繝医Μ "cmTC_adea5.dir\\Debug\\cmTC_adea5.tlog\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+        InitializeBuildStatus:
+          "AlwaysCreate" 縺梧欠螳壹＆繧後◆縺溘ａ "cmTC_adea5.dir\\Debug\\cmTC_adea5.tlog\\unsuccessfulbuild" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          "cmTC_adea5.dir\\Debug\\cmTC_adea5.tlog\\unsuccessfulbuild" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adea5.dir\\Debug\\\\" /Fd"cmTC_adea5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft(R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adea5.dir\\Debug\\\\" /Fd"cmTC_adea5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5zshb\\Debug\\cmTC_adea5.exe" /INCREMENTAL /ILK:"cmTC_adea5.dir\\Debug\\cmTC_adea5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-i5zshb/Debug/cmTC_adea5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-i5zshb/Debug/cmTC_adea5.lib" /MACHINE:X64  /machine:x64 cmTC_adea5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_adea5.vcxproj -> C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5zshb\\Debug\\cmTC_adea5.exe
+        FinalizeBuildStatus:
+          繝輔ぃ繧､繝ｫ "cmTC_adea5.dir\\Debug\\cmTC_adea5.tlog\\unsuccessfulbuild" 繧貞炎髯､縺励※縺・∪縺吶\xc2\x80・
+          "cmTC_adea5.dir\\Debug\\cmTC_adea5.tlog\\cmTC_adea5.lastbuildstate" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+        繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5zshb\\cmTC_adea5.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ) 縺ｮ繝薙Ν繝峨′螳御ｺ・＠縺ｾ縺励◆縲・
+        
+        繝薙Ν繝峨↓謌仙粥縺励∪縺励◆縲・
+            0 蛟九・隴ｦ蜻・
+            0 繧ｨ繝ｩ繝ｼ
+        
+        邨碁℃譎る俣 00:00:01.14
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34436.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "extern/googletest/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "extern/googletest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-3q3d3a"
+      binary: "C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-3q3d3a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-3q3d3a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8bdb7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild 縺ｮ繝舌・繧ｸ繝ｧ繝ｳ 17.12.12+1cce77968 (.NET Framework)
+        2025/02/26 14:04:22 縺ｫ繝薙Ν繝峨ｒ髢句ｧ九＠縺ｾ縺励◆縲・
+        
+        繝弱・繝・1 荳翫・繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q3d3a\\cmTC_8bdb7.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ)縲・
+        PrepareForBuild:
+          繝・ぅ繝ｬ繧ｯ繝医Μ "cmTC_8bdb7.dir\\Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          讒矩\xc2\x80蛹門・蜉帙′譛牙柑縺ｫ縺ｪ縺｣縺ｦ縺・∪縺吶\xc2\x80ゅさ繝ｳ繝代う繝ｩ險ｺ譁ｭ縺ｮ譖ｸ蠑剰ｨｭ螳壹↓縺ｯ繧ｨ繝ｩ繝ｼ髫主ｱ､縺悟渚譏縺輔ｌ縺ｾ縺吶\xc2\x80りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/cpp/structured-output 繧貞盾辣ｧ縺励※縺上□縺輔＞縲・
+          繝・ぅ繝ｬ繧ｯ繝医Μ "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q3d3a\\Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          繝・ぅ繝ｬ繧ｯ繝医Μ "cmTC_8bdb7.dir\\Debug\\cmTC_8bdb7.tlog\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+        InitializeBuildStatus:
+          "AlwaysCreate" 縺梧欠螳壹＆繧後◆縺溘ａ "cmTC_8bdb7.dir\\Debug\\cmTC_8bdb7.tlog\\unsuccessfulbuild" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          "cmTC_8bdb7.dir\\Debug\\cmTC_8bdb7.tlog\\unsuccessfulbuild" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8bdb7.dir\\Debug\\\\" /Fd"cmTC_8bdb7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q3d3a\\src.c"
+          Microsoft(R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8bdb7.dir\\Debug\\\\" /Fd"cmTC_8bdb7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q3d3a\\src.c"
+          src.c
+        C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q3d3a\\src.c(1,10): error C1083: include 繝輔ぃ繧､繝ｫ繧帝幕縺代∪縺帙ｓ縲・pthread.h':No such file or directory [C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q3d3a\\cmTC_8bdb7.vcxproj]
+        繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q3d3a\\cmTC_8bdb7.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ) 縺ｮ繝薙Ν繝峨′邨ゆｺ・＠縺ｾ縺励◆ -- 螟ｱ謨励\xc2\x80・
+        
+        繝薙Ν繝峨↓螟ｱ謨励＠縺ｾ縺励◆縲・
+        
+        "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q3d3a\\cmTC_8bdb7.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ) (1) ->
+        (ClCompile 繧ｿ繝ｼ繧ｲ繝・ヨ) -> 
+          C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q3d3a\\src.c(1,10): error C1083: include 繝輔ぃ繧､繝ｫ繧帝幕縺代∪縺帙ｓ縲・pthread.h':No such file or directory [C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q3d3a\\cmTC_8bdb7.vcxproj]
+        
+            0 蛟九・隴ｦ蜻・
+            1 繧ｨ繝ｩ繝ｼ
+        
+        邨碁℃譎る俣 00:00:01.01
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "extern/googletest/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "extern/googletest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-zdphbb"
+      binary: "C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-zdphbb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-zdphbb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2e8ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild 縺ｮ繝舌・繧ｸ繝ｧ繝ｳ 17.12.12+1cce77968 (.NET Framework)
+        2025/02/26 14:04:24 縺ｫ繝薙Ν繝峨ｒ髢句ｧ九＠縺ｾ縺励◆縲・
+        
+        繝弱・繝・1 荳翫・繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zdphbb\\cmTC_2e8ed.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ)縲・
+        PrepareForBuild:
+          繝・ぅ繝ｬ繧ｯ繝医Μ "cmTC_2e8ed.dir\\Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          讒矩\xc2\x80蛹門・蜉帙′譛牙柑縺ｫ縺ｪ縺｣縺ｦ縺・∪縺吶\xc2\x80ゅさ繝ｳ繝代う繝ｩ險ｺ譁ｭ縺ｮ譖ｸ蠑剰ｨｭ螳壹↓縺ｯ繧ｨ繝ｩ繝ｼ髫主ｱ､縺悟渚譏縺輔ｌ縺ｾ縺吶\xc2\x80りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/cpp/structured-output 繧貞盾辣ｧ縺励※縺上□縺輔＞縲・
+          繝・ぅ繝ｬ繧ｯ繝医Μ "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zdphbb\\Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          繝・ぅ繝ｬ繧ｯ繝医Μ "cmTC_2e8ed.dir\\Debug\\cmTC_2e8ed.tlog\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+        InitializeBuildStatus:
+          "AlwaysCreate" 縺梧欠螳壹＆繧後◆縺溘ａ "cmTC_2e8ed.dir\\Debug\\cmTC_2e8ed.tlog\\unsuccessfulbuild" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          "cmTC_2e8ed.dir\\Debug\\cmTC_2e8ed.tlog\\unsuccessfulbuild" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e8ed.dir\\Debug\\\\" /Fd"cmTC_2e8ed.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zdphbb\\CheckFunctionExists.c"
+          Microsoft(R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e8ed.dir\\Debug\\\\" /Fd"cmTC_2e8ed.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zdphbb\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zdphbb\\Debug\\cmTC_2e8ed.exe" /INCREMENTAL /ILK:"cmTC_2e8ed.dir\\Debug\\cmTC_2e8ed.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-zdphbb/Debug/cmTC_2e8ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-zdphbb/Debug/cmTC_2e8ed.lib" /MACHINE:X64  /machine:x64 cmTC_2e8ed.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 繝輔ぃ繧､繝ｫ 'pthreads.lib' 繧帝幕縺上％縺ｨ縺後〒縺阪∪縺帙ｓ縲・[C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zdphbb\\cmTC_2e8ed.vcxproj]
+        繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zdphbb\\cmTC_2e8ed.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ) 縺ｮ繝薙Ν繝峨′邨ゆｺ・＠縺ｾ縺励◆ -- 螟ｱ謨励\xc2\x80・
+        
+        繝薙Ν繝峨↓螟ｱ謨励＠縺ｾ縺励◆縲・
+        
+        "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zdphbb\\cmTC_2e8ed.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ) (1) ->
+        (Link 繧ｿ繝ｼ繧ｲ繝・ヨ) -> 
+          LINK : fatal error LNK1104: 繝輔ぃ繧､繝ｫ 'pthreads.lib' 繧帝幕縺上％縺ｨ縺後〒縺阪∪縺帙ｓ縲・[C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zdphbb\\cmTC_2e8ed.vcxproj]
+        
+            0 蛟九・隴ｦ蜻・
+            1 繧ｨ繝ｩ繝ｼ
+        
+        邨碁℃譎る俣 00:00:01.03
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "extern/googletest/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "extern/googletest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-ivm6l5"
+      binary: "C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-ivm6l5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-ivm6l5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3b751.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild 縺ｮ繝舌・繧ｸ繝ｧ繝ｳ 17.12.12+1cce77968 (.NET Framework)
+        2025/02/26 14:04:25 縺ｫ繝薙Ν繝峨ｒ髢句ｧ九＠縺ｾ縺励◆縲・
+        
+        繝弱・繝・1 荳翫・繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivm6l5\\cmTC_3b751.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ)縲・
+        PrepareForBuild:
+          繝・ぅ繝ｬ繧ｯ繝医Μ "cmTC_3b751.dir\\Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          讒矩\xc2\x80蛹門・蜉帙′譛牙柑縺ｫ縺ｪ縺｣縺ｦ縺・∪縺吶\xc2\x80ゅさ繝ｳ繝代う繝ｩ險ｺ譁ｭ縺ｮ譖ｸ蠑剰ｨｭ螳壹↓縺ｯ繧ｨ繝ｩ繝ｼ髫主ｱ､縺悟渚譏縺輔ｌ縺ｾ縺吶\xc2\x80りｩｳ邏ｰ縺ｫ縺､縺・※縺ｯ縲”ttps://aka.ms/cpp/structured-output 繧貞盾辣ｧ縺励※縺上□縺輔＞縲・
+          繝・ぅ繝ｬ繧ｯ繝医Μ "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivm6l5\\Debug\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          繝・ぅ繝ｬ繧ｯ繝医Μ "cmTC_3b751.dir\\Debug\\cmTC_3b751.tlog\\" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+        InitializeBuildStatus:
+          "AlwaysCreate" 縺梧欠螳壹＆繧後◆縺溘ａ "cmTC_3b751.dir\\Debug\\cmTC_3b751.tlog\\unsuccessfulbuild" 繧剃ｽ懈・縺励※縺・∪縺吶\xc2\x80・
+          "cmTC_3b751.dir\\Debug\\cmTC_3b751.tlog\\unsuccessfulbuild" 縺ｮ繧ｿ繝・メ 繧ｿ繧ｹ繧ｯ繧貞ｮ溯｡後＠縺ｦ縺・∪縺吶\xc2\x80・
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b751.dir\\Debug\\\\" /Fd"cmTC_3b751.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivm6l5\\CheckFunctionExists.c"
+          Microsoft(R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b751.dir\\Debug\\\\" /Fd"cmTC_3b751.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivm6l5\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivm6l5\\Debug\\cmTC_3b751.exe" /INCREMENTAL /ILK:"cmTC_3b751.dir\\Debug\\cmTC_3b751.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-ivm6l5/Debug/cmTC_3b751.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ykoyabu/my-project/SampleApp/build/CMakeFiles/CMakeScratch/TryCompile-ivm6l5/Debug/cmTC_3b751.lib" /MACHINE:X64  /machine:x64 cmTC_3b751.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 繝輔ぃ繧､繝ｫ 'pthread.lib' 繧帝幕縺上％縺ｨ縺後〒縺阪∪縺帙ｓ縲・[C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivm6l5\\cmTC_3b751.vcxproj]
+        繝励Ο繧ｸ繧ｧ繧ｯ繝・"C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivm6l5\\cmTC_3b751.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ) 縺ｮ繝薙Ν繝峨′邨ゆｺ・＠縺ｾ縺励◆ -- 螟ｱ謨励\xc2\x80・
+        
+        繝薙Ν繝峨↓螟ｱ謨励＠縺ｾ縺励◆縲・
+        
+        "C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivm6l5\\cmTC_3b751.vcxproj" (譌｢螳壹・繧ｿ繝ｼ繧ｲ繝・ヨ) (1) ->
+        (Link 繧ｿ繝ｼ繧ｲ繝・ヨ) -> 
+          LINK : fatal error LNK1104: 繝輔ぃ繧､繝ｫ 'pthread.lib' 繧帝幕縺上％縺ｨ縺後〒縺阪∪縺帙ｓ縲・[C:\\Users\\ykoyabu\\my-project\\SampleApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivm6l5\\cmTC_3b751.vcxproj]
+        
+            0 蛟九・隴ｦ蜻・
+            1 繧ｨ繝ｩ繝ｼ
+        
+        邨碁℃譎る俣 00:00:01.02
+        
+      exitCode: 1
+...
